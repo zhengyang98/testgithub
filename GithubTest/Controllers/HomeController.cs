@@ -17,7 +17,7 @@ namespace GithubTest.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page here. Test ok.";
+            ViewData["Message"] = "Your application description page ok here. Test ok.";
 
             return View();
         }
